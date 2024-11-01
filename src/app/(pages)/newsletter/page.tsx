@@ -39,7 +39,7 @@ export default async function Page(props: {
             <Link
               key={filter.category}
               className={clsx("btn btn-sm", filter.category === category && "btn-primary")}
-              href={filter.category ? { query: { category: filter.category } } : "/blog"}
+              href={filter.category ? { query: { category: filter.category } } : "/newsletter"}
             >
               {filter.name}
             </Link>
